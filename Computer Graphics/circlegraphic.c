@@ -35,7 +35,7 @@ if (err > 0)
 int main()
 {
 int gdriver=DETECT, gmode, error, x, y, r;
-initgraph(&gdriver, &gmode, "C:\\TURB0C3\\BGI");
+initgraph(&gdriver, &gmode, "C:\\TURBOC3\\BGI");
  
 printf("Enter radius of circle: ");
 scanf("%d", &r);
@@ -43,6 +43,7 @@ scanf("%d", &r);
 printf("Enter co-ordinates of center(x and y): ");
 scanf("%d%d", &x, &y);
 drawcircle(x, y, r);
- 
+ outtextxy(x+100,y+100,"Prepared By Aayush Basnet");
+ getch();
 return 0;
 }
