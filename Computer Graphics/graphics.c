@@ -1,3 +1,4 @@
+// Digitize the line with endpoints (x1,y1) and (x2,y2) using DDA.
 #include<stdio.h>
 #include<graphics.h>
 #include<conio.h>
