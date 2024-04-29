@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Aayush Basnet</title>
+    <style>
+     table {
+      border-collapse: collapse;
+      width: 100%;
+      border-color: white;
+    }
+    th, td {
+      padding: 8px;
+      border: 1px solid #ddd;
+    }
+    nav {
+      background-color: #eee;
+      padding: 10px;
+    }
+    nav a {
+      margin-right: 10px;
+    }
+    h2{
+        padding-left: 10px;
+    }
+    footer{
+        text-align: center;
+        display: grid;
+        place-items: center;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+        <a href="#bio">Bio</a>
+        <a href="#education">Education</a>
+        <a href="#interests">Interests & Hobbies</a>
+        <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <div class="grid-2">
+        <div class="section-1">
+            <img src="Image/profile.jpg" style="height:250px; border-radius: 50%; border: 10px solid #fefdf9;" alt="Profile picture">
+
+            <h2>Aayush Basnet</h2>
+            <p>Kathmandu, Nepal</p>
+            <a href="https://twitter.com/aayu_basnet"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/aayush-basnet-47b803239/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Aayush-Basnet"><i class="fab fa-github"></i></a>
+            
+        </div>
+
+        <section id = "bio">
+        <div class="section-2">
+            <h2>About</h2>
+            <p>A passionate data analyst with a strong desire to leverage data for informed decision-making.</p>
+            <h2>Education</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Institution</th>
+                        <th>Degree</th>
+                        <th>Expected Graduation</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Madan Bhandari Memorial College</td>
+                        <td>Bachelor of Science in Computer Science and Information Technology</td>
+                        <td>April 2026</td>
+                    </tr>
+                    <tr>
+                        <td>College for Higher Education (COHED)</td>
+                        <td>Science (+2)</td>
+                        <td>2021</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="interests">
+            <div class="section-2">
+            <h2>Interests & Hobbies</h2>  
+                <ul >
+			      <li>Reading Books</li>
+			      <li>Travel</li>
+                 <li>Exploring new data analysis techniques</li>
+                 <li>Listening to Podcast</li>
+                </ul>
+            </ul>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="section-2">
+                <h2>Contract Form</h2>
+                <form action="#">
+                    <label for="name">Enter your Name: </label><br>
+                    <input type="text" id="name" name="name" placeholder="Full Name"><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" placeholder="Your Email"></br>
+                    <label for="message">Message: </label><br>
+                    <textarea id="message" name="message" row="4" cols="30" placeholder="Write your message here"></textarea><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+    
+    <footer>
+        <p>&copy; Aayush Basnet <?php echo date("Y"); ?></p>
+      </footer>
+</body>
+</html>
