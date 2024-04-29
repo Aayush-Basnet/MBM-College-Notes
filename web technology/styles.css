@@ -1,0 +1,11 @@
+body{
+    background-color: white;
+}
+.collegelogo{
+    display: flex;
+    justify-content: left;
+    height: 50px;
+}
+h3{
+    font-size: px;
+}
