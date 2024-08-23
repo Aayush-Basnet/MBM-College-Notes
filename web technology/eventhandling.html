@@ -1,0 +1,31 @@
+<!--
+    Event Handling is a javascript code, that is not added inside <script> tags, but added inside html tags,
+        that execute javascript when something happens like clicking button, moving mouse etc.
+     syntax:
+            event_handler_name = "js code goes here"
+
+    Example:
+        <a href="http://google.com" onclick="alert("Hello")">Google</a>
+
+    Some event handler used in javascript
+    i. onclick = used to invoke js upon clicking
+    ii. onload = used to invoke js after page or image finished loading
+    iii. onmouseout = used to invoke js if mouse goes pass some link
+    iv. onmouseover = used to invoke js if mouse passes by some link
+    v. onunload = used to invoke js just after someone leave page
+-->
+<!DOCTYPE html>
+<head>
+    <script type="text/javascript">
+        function sayHello(){
+            alert("Hello World");
+        }
+    </script>
+</head>
+<body>
+    <p>Press button to see hello world</p>
+    <form>
+        <input type="button" onclick="sayHello()" value="say Hello">
+    </form>
+</body>
+</html>
