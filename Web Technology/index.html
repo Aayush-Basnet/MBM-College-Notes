@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aayush Basnet</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    .bio {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .bio img {
+      width: 150px;
+      height: auto;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      padding: 8px;
+      border: 1px solid #ddd;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    nav {
+      background-color: #eee;
+      padding: 10px;
+    }
+    nav a {
+      margin-right: 10px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#bio">Bio</a>
+      <a href="#education">Education</a>
+      <a href="#interests">Interests & Hobbies</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="bio">
+    <div class="bio">
+     <a href="Image/profile.JPG"><img src="Image/profile.JPG" alt="Aayush Basnet">
+      <h2>Aayush Basnet</h2>
+      <p>A passionate data analyst with a strong desire to leverage data for informed decision-making.</p>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education History</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Institution</th>
+          <th>Degree</th>
+          <th>Expected Graduation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Madan Bhandari Memorial College</td>
+          <td>Bachelor of Science in Computer Science and Information Technology (BSc. CSIT)</td>
+          <td>April 2026</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="interests">
+    <h2>Interests & Hobbies</h2>
+    <ul>
+      <li>Exploring new data analysis techniques</li>
+      <li>Staying updated on the latest tech trends</li>
+      <li>[Add your other interests]</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Form</h2>
+    <form action="#">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your Name">
+      <br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your Email">
+      <br>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Write your message here"></textarea>
+      <br>
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; Aayush Basnet - <?php echo date("Y"); ?></p>
+    <a href="https://www.example.com">External Link</a>
+  </footer>
+</body>
+</html>

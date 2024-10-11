@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+    <title>Handling Cookies</title>
+</head>
+<body>
+    <input type="button" onclick="setcookie()" value="setcookie">
+    <input type="button" onclick="getcookie()" value="getcookie">
+
+    <script type="text/javascript">
+        function setcookie(){
+            document.cookie = "username=Aayush";
+        }
+        function getcookie(){
+            if(document.cookie.length!=0){
+                alert(document.cookie);
+            }else{
+                alert("Cookie not available");
+            }
+        }
+    </script>
+
+</body>
+</html>
