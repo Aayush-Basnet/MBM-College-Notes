@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab_1</title>
+</head>
+<body>
+    <h1>Utsav's Store</h1>
+    
+    <!-- Product Form -->
+    <div id="product-form">
+        <h2>Add Product</h2>
+        Product Name:<input type="text" id="productName">
+        Price:<input type="number" id="productPrice">
+        Description:<textarea id="productDescription"></textarea>
+        <button onclick="addProduct()" id= "b1">Add Product</button>
+    </div>
+
+    <!-- Product Search -->
+    <div id="product-search">
+        <h2>Search</h2>
+        <input type="text" id="searchInput" placeholder="Search by name">
+        <button onclick="searchProducts()" id = "b2">Search</button>
+    </div>
+
+    <!-- Product List -->
+    <div id="product-list">
+        <h2>Products:</h2>
+        <ul id="products">
+            <!-- Product items will be displayed here dynamically -->
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
