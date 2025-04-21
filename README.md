@@ -15,5 +15,8 @@ Subject  |
 [Simulation & Modeling](https://github.com/Aayush-Basnet/MBM-College-Notes/tree/main/SM)
 [Web Technology](https://github.com/Aayush-Basnet/MBM-College-Notes/tree/main/web%20technology)
 [Cryptography](https://github.com/Aayush-Basnet/MBM-College-Notes/tree/main/Crypto)
+[Software Engineering](https://github.com/Aayush-Basnet/MBM-College-Notes/tree/main/Software%20Engineering)
+[E-Commerce](https://github.com/Aayush-Basnet/MBM-College-Notes/tree/main/E-Commerce)
+[E-Governance](https://github.com/Aayush-Basnet/MBM-College-Notes/tree/main/E-Govenance)
 
 
