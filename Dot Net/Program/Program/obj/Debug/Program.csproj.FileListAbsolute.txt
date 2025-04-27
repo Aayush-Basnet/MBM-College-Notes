@@ -1,0 +1,7 @@
+C:\Users\Aayush\Desktop\MBM\Sixth Semester\Dot Net\Program\Program\bin\Debug\Program.exe.config
+C:\Users\Aayush\Desktop\MBM\Sixth Semester\Dot Net\Program\Program\bin\Debug\Program.exe
+C:\Users\Aayush\Desktop\MBM\Sixth Semester\Dot Net\Program\Program\bin\Debug\Program.pdb
+C:\Users\Aayush\Desktop\MBM\Sixth Semester\Dot Net\Program\Program\obj\Debug\Program.csproj.AssemblyReference.cache
+C:\Users\Aayush\Desktop\MBM\Sixth Semester\Dot Net\Program\Program\obj\Debug\Program.csproj.CoreCompileInputs.cache
+C:\Users\Aayush\Desktop\MBM\Sixth Semester\Dot Net\Program\Program\obj\Debug\Program.exe
+C:\Users\Aayush\Desktop\MBM\Sixth Semester\Dot Net\Program\Program\obj\Debug\Program.pdb
